@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 * {
   box-sizing: border-box;
@@ -12,4 +12,21 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+
+.bg {
+  background: url("https://1gr.cz/fotky/idnes/21/123/cl8h/ZAR90652f_SURVIVOR_TLACOVA_SPRAVA_clean.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 4.5rem;
+  color: #fff;
 }
